@@ -3,4 +3,4 @@ description: "This action provides kubectl for Github Actions."
 author: 'Maksim Karpychev'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: docker://269461048441.dkr.ecr.ap-southeast-2.amazonaws.com/kubectl-aws-eks:1.0.0
